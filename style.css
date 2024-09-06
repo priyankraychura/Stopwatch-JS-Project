@@ -55,3 +55,14 @@ body{
     background-color: #3c98ff;
     color: #f0f9ff;
 }
+
+@media screen and (max-width: 600px){
+    .timer-display{
+        font-size: 2em;
+    }
+    .buttons{
+        font-size: 0.8em;
+        justify-content: center;
+        gap: 15px;
+    }
+}
